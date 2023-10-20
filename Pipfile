@@ -5,6 +5,10 @@ name = "pypi"
 
 [packages]
 newsapi-python = "*"
+transformers = "*"
+torch = "*"
+torchvision = "*"
+torchaudio = "*"
 
 [dev-packages]
 
