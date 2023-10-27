@@ -9,8 +9,11 @@ transformers = "*"
 torch = "*"
 torchvision = "*"
 torchaudio = "*"
+pandas = "*"
+gnews = "*"
+newspaper3k = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.10"
+python_version = "3.8"
