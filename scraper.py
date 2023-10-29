@@ -1,13 +1,12 @@
 from gnews import GNews
 from datetime import datetime
-import newspaper
 from newspaper import Config
 
 config = Config()
 config.fetch_images = False
 
 '''Gets all articles regarding the keyword, limit the search with the date options, by default the last year. Retursn a dict with date as key, and an array of results as value.'''
-def getArticles(keyword, start=None, end=None):
+def get_articles(keyword, start=None, end=None):
     print("Getting articles ...")
     # Initialize the google news package
     google_news = GNews(language='en')
